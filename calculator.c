@@ -14,6 +14,11 @@ void OP_ADD(float num_1, float num_2, float *result)
 	*result = num_1 + num_2;
 	return;
 }
+void OP_DIVIDER(float num_1, float num_2, float *result)
+{
+	*result = num_1 / num_2;
+	return;
+}
 
 int main(int argc, char *argv[])
 {
@@ -58,7 +63,7 @@ int main(int argc, char *argv[])
 
 			break;
 		case '/':
-
+			OP_DIVIDER(num_1, num_2, &result);
 			break;	
 		default:
 			printf("Operator [%c] is incorrect\n", operator);
