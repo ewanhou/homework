@@ -14,6 +14,11 @@ void OP_ADD(float num_1, float num_2, float *result)
 	*result = num_1 + num_2;
 	return;
 }
+void OP_SUBTRACT(float num_1, float num_2, float *result)
+{
+	*result = num_1 - num_2;
+	return;
+}
 void OP_DIVIDER(float num_1, float num_2, float *result)
 {
 	*result = num_1 / num_2;
@@ -57,7 +62,7 @@ int main(int argc, char *argv[])
 			OP_ADD(num_1, num_2, &result);
 			break;
 		case '-':
-
+			OP_SUBTRACT(num_1, num_2, &result);
 			break;
 		case 'x':
 
