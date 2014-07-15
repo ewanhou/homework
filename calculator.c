@@ -9,6 +9,11 @@
 //#define DEBUG
 #define RET_ERR (-1)
 
+void OP_Multiplication(float num_1, float num_2, float *result)
+{
+        *result = num_1 * num_2;
+        return;
+}
 void OP_ADD(float num_1, float num_2, float *result)
 {
 	*result = num_1 + num_2;
@@ -60,7 +65,8 @@ int main(int argc, char *argv[])
 
 			break;
 		case 'x':
-
+			OP_Multiplication(num_1, num_2, &result);
+			printf("Blake 2014 07, 1st\n ");
 			break;
 		case '/':
 			OP_DIVIDER(num_1, num_2, &result);
