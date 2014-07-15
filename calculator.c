@@ -22,7 +22,7 @@ void OP_DIVIDER(float num_1, float num_2, float *result)
 
 int main(int argc, char *argv[])
 {
-	//printf("\nPlease finish all functions.\n");
+	//printf("\nPlease finish all functions..\n");
 	
 	float num_1 = 0.0;
 	float num_2 = 0.0;
