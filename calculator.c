@@ -65,6 +65,7 @@ int main(int argc, char *argv[])
 		case '/':
 			OP_DIVIDER(num_1, num_2, &result);
 			printf("\ndarcy 2014 07 15 AM 11:00 \n");
+			printf("\ndarcy 2014 07 15 AM 11:05 \n");
 			break;	
 		default:
 			printf("Operator [%c] is incorrect\n", operator);
