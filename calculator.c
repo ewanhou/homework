@@ -22,7 +22,7 @@ void OP_DIVIDER(float num_1, float num_2, float *result)
 
 int main(int argc, char *argv[])
 {
-	//printf("\nPlease finish all functions..\n");
+	printf("\nPlease finish all functions..\n");
 	
 	float num_1 = 0.0;
 	float num_2 = 0.0;
@@ -66,7 +66,6 @@ int main(int argc, char *argv[])
 			OP_DIVIDER(num_1, num_2, &result);
 			printf("\ndarcy 2014 07 15 AM 11:00 \n");
 			printf("\ndarcy 2014 07 15 AM 11:05 \n");
-			printf("\newan 2014 07 15 AM 11:30 \n");
 			break;	
 		default:
 			printf("Operator [%c] is incorrect\n", operator);
